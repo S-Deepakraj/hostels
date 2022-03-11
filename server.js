@@ -18,7 +18,9 @@ const hostel= mongoose.model('Hostel',hostelSchema)
 
 const app = express();
 app.listen(3000,function(){
-    console.log('Hello guys')
+
+    console.log('Hello buddy')
+
 
 })
 app.use(bodyParser.urlencoded({extended: true}))
